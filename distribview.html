@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/distribview.css">
         <link rel="stylesheet" type="text/css" href="ff.css">
-        <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
             </script>
 
@@ -37,16 +37,20 @@
         <![endif]-->
       <div class="container">
         <div class="header">
-        <h1> Catches by Map </h1>
-      <form method="post">
-        <h2> Fish Type </h2>
-        <select name=" Fish"> 
-                <option value="mahi ">Mahi</option>
-                <option value="ahi ">Ahi</option>
-                <option value="lochness monster">Lochness Monster</option>
-                <option value="squid">Squid</option>
-        </select>
-      </form>
+          <h1> Local Catch </h1>
+        </div>
+        <span class="fishtype">
+          <form method="post">
+            <h2> Type </h2> <select name=" Fish">
+                    <option value="mahi ">Mahi</option>
+                    <option value="ahi ">Ahi</option>
+                    <option value="lochness monster">Lochness Monster</option>
+                    <option value="squid">Squid</option>
+            </select>
+          </form>
+        </span>
+
+
 
       <div id="googleMap"></div>
 
@@ -55,49 +59,49 @@
   <div class="header-row row">
     <span class="cell primary"> Fisherman</span>
     <span class="cell"> Quantity</span>
-     <span class="cell">$/lb</span>
-    <span class="cell"> lbs </span>
+     <span class="cell">Price</span>
+    <span class="cell"> Lbs </span>
   </div>
   <div class="row">
   <input type="radio" name="expand">
     <span class="cell primary" data-label="fisherman"> Julio Pescado </span>
     <span class="cell" data-label="quantity"> 100 </span>
-     <span class="cell" data-label="price"> $8</span>
+     <span class="cell" data-label="price"> $8/lb</span>
      <span class="cell" data-label="lbs"> 15 </span>
   </div>
   <div class="row">
   <input type="radio" name="expand">
     <span class="cell primary" data-label="fisherman">Tomas Pescado</span>
     <span class="cell" data-label="quantity"> 300 </span>
-     <span class="cell" data-label="price">$8</span>
+     <span class="cell" data-label="price">$8/lb</span>
      <span class="cell" data-label="lbs">12</span>
   </div>
   <div class="row">
   <input type="radio" name="expand">
     <span class="cell primary" data-label="fisherman">Chris Pescado</span>
     <span class="cell" data-label="quantity"> 20 </span>
-     <span class="cell" data-label="price">$8</span>
+     <span class="cell" data-label="price">$8/lb</span>
      <span class="cell" data-label="lbs">10</span>
   </div>
   <div class="row">
   <input type="radio" name="expand">
     <span class="cell primary" data-label="fisherman">Billy Pescado</span>
     <span class="cell" data-label="quantity"> 800</span>
-     <span class="cell" data-label="price">$8</span>
+     <span class="cell" data-label="price">$8/lb</span>
      <span class="cell" data-label="lbs"> 10 </span>
   </div>
   <div class="row">
   <input type="radio" name="expand">
     <span class="cell primary" data-label="fisherman">Tyrone Pescado</span>
     <span class="cell" data-label="quantity"> 35</span>
-     <span class="cell" data-label="price">$8</span>
+     <span class="cell" data-label="price">$8/lb</span>
      <span class="cell" data-label="lbs"> 32</span>
   </div>
   <div class="row">
   <input type="radio" name="expand">
-    <span class="cell primary" data-label="fisherman">Julio Pescado</span>
+    <span class="cell primary" data-label="fisherman">Roberto Pescado</span>
     <span class="cell" data-label="quantity"> 99</span>
-     <span class="cell" data-label="price">$8</span>
+     <span class="cell" data-label="price">$8/lb</span>
      <span class="cell" data-label="lbs"> 40</span>
   </div>
 </div>
