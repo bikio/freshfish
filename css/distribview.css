@@ -7,6 +7,10 @@
   width: 100%;
 }
 
+span {
+  font-size: 1.5em;
+}
+
 
 .header h1 {
   /*text-align: center;*/
@@ -52,7 +56,7 @@ form {
 
    }
 
-   .caption {
+/*   .caption {
     display: block;
     width: 100%;
     background: #64e0ef;
@@ -63,13 +67,12 @@ form {
     line-height: 55px;
     text-shadow: 1px 1px 1px rgba(0,0,0,.3);
     box-sizing: border-box;
-   }
+   }*/
 
 
    .header-row {
     background: #8b8b8b;
     color: #fff;
-
    }
 
   .row {
