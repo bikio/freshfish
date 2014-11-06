@@ -35,8 +35,8 @@ form {
 #googleMap {
   margin-top: 5% !important;
   margin: 0 auto;
-  width: 99%;
-  height: 300px;
+  width: 100%;
+  height: 280px;
   margin-bottom: 2% !important;
   box-shadow: 0 0 20px rgba(0, 0, 0, .7);
 
@@ -78,7 +78,6 @@ form {
 
   .cell {
     display: table-cell;
-    
     padding: 6px; 
     border-bottom: 1px solid #e5e5e5;
     text-align: center;
@@ -133,6 +132,7 @@ form {
 
     #googleMap {
       width: 100%;
+      height: 210px;
       margin-top: 15% !important;
     }
 
