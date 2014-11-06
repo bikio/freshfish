@@ -1,18 +1,18 @@
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Alegreya Sans SC', sans-serif;
   padding: .5%;
 }
 
 .container {
   width: 100%;
-  background: #fafafa;
+  background: white;
 }
 
 
 .header h1 {
   /*text-align: center;*/
 /*  padding-top: 2%;
-*/  font-size: 3.5em;
+*/  font-size: 3.3em;
 }
 
 /*form h2 {
@@ -133,7 +133,7 @@ form {
 
     #googleMap {
       width: 99%;
-      margin-top: 10% !important;
+      margin-top: 15% !important;
     }
 
     .header-row {
