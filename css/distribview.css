@@ -16,6 +16,7 @@ span {
   /*text-align: center;*/
 /*  padding-top: 2%;
 */  font-size: 3.3em;
+    display: none;
 }
 
 /*form h2 {
@@ -33,12 +34,12 @@ form {
   display: inline-block;
   /*padding-left: 35%;*/
   width: 40px;
-/*  padding-top: 1%;
-*/}
+  padding-top: 15%;
+}
 
 #googleMap {
-  margin-top: 5% !important;
-  margin: 0 auto;
+/*  margin-top: 2% !important;
+*/  margin: 0 auto;
   width: 100%;
   height: 280px;
   margin-bottom: 2% !important;
@@ -56,18 +57,20 @@ form {
 
    }
 
-/*   .caption {
+   .caption {
     display: block;
     width: 100%;
-    background: #64e0ef;
-    height: 55px;
+    background: dimgray;
+    height: 75px;
     padding-left: 10px;
+    margin-bottom: 2%;
     color: #fff;
-    font-size: 20px;
+    font-size: 2.5em;
     line-height: 55px;
     text-shadow: 1px 1px 1px rgba(0,0,0,.3);
     box-sizing: border-box;
-   }*/
+    box-shadow: 0 0 20px rgba(0, 0, 0, .7);
+   }
 
 
    .header-row {
