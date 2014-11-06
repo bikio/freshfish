@@ -43,7 +43,7 @@ form {
   margin: 0 auto;
   width: 90%;
   height: 200px;
-  margin-bottom: 2% !important;
+  margin-bottom: 1% !important;
   box-shadow: 0 0 20px rgba(0, 0, 0, .7);
 
 }
@@ -114,14 +114,15 @@ form {
 
     form {
       padding-right: 70% !important;
-      padding-top: 11% !important;
+      padding-top: 13% !important;
+      padding-bottom: 3%;
     }
 
 
     #table {
       display: block;
       padding-left:4%;
-      margin: 44px 0 0 0;
+      margin: 10px 0 0 0;
     }
 
     .caption {
