@@ -1,5 +1,5 @@
 * {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Karla', sans-serif;
   padding: .5%;
 }
 
@@ -8,7 +8,7 @@
 }
 
 span {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 
@@ -70,6 +70,7 @@ form {
     text-shadow: 1px 1px 1px rgba(0,0,0,.3);
     box-sizing: border-box;
     box-shadow: 0 0 20px rgba(0, 0, 0, .7);
+
    }
 
 
@@ -123,7 +124,7 @@ form {
       position: fixed;
       top: 0;
       text-align: center;
-      height: 44px;
+      height: 50px;
       line-height: 44px;
       z-index: 5;
       border-bottom: 2px solid #999;
@@ -239,3 +240,8 @@ form {
     }
 
 }
+
+ @media only screen and (min-width: 760px)  {
+    .caption {
+      display: none;
+    }
