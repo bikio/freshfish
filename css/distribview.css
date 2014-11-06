@@ -5,23 +5,6 @@
 
 .container {
   width: 100%;
-  /* IE10 Consumer Preview */ 
-  background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #309CEF 700%);
-
-  /* Mozilla Firefox */ 
-  background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #309CEF 700%);
-
-  /* Opera */ 
-  background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #309CEF 700%);
-
-  /* Webkit (Safari/Chrome 10) */ 
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(7, #309CEF));
-
-  /* Webkit (Chrome 11+) */ 
-  background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #309CEF 700%);
-
-  /* W3C Markup, IE10 Release Preview */ 
-  background-image: linear-gradient(to top, #FFFFFF 0%, #309CEF 700%);
 }
 
 
@@ -127,6 +110,7 @@ form {
 
     #table {
       display: block;
+      padding-left:4%;
       margin: 44px 0 0 0;
     }
 
@@ -158,7 +142,6 @@ form {
     
     .cell { 
       display: block;
-
       border: none;
       position: relative;
       height: 45px;
