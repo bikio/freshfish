@@ -42,9 +42,11 @@
   height: 80px;
   box-sizing: border-box;
   position: fixed;
-  margin-top: 70px;
+  margin-top: 75px;
   text-align: center;
   width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+
 }
 
 .sale p:first-child {
