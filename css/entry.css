@@ -1,0 +1,30 @@
+.biohead {
+    display: block;
+    float: right;
+    width: 100%;
+    background: dimgray;
+    height: 85px;
+/*  padding-left: 10px;
+*/  margin-bottom: 2%;
+    color: #fff;
+    font-size: 2.5em;
+    line-height: 55px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    position: fixed;
+    top: 0;
+}
+
+.biohead h1 {
+  float: right;
+  width: 70%;
+}
+
+.biohead img {
+  height: 80px;
+  padding-top: 1%;
+  float: left;
+  width: 15%;
+  border-radius: 20%;
+}

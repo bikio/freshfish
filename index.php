@@ -1,1 +1,1 @@
-<?php include_once("distribview.html"); ?>
+<?php include_once("files.html"); ?>
