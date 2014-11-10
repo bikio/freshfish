@@ -38,9 +38,10 @@
 }
 
 .sale {
-  background: #A6A6A6;
+  background: #969696;
   height: 80px;
   box-sizing: border-box;
+  position: fixed;
   margin-top: 70px;
   width: 100%;
 }
