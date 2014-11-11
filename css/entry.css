@@ -94,6 +94,7 @@ form {
 .add a {
   color: dimgray !important;
   text-decoration: none;
+  font-size: 1.1em;
 }
 .upload {
   text-align: center;
