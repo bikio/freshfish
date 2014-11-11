@@ -90,6 +90,11 @@ form {
   width: 40px;
   height: 40px;
 }
+
+.add a {
+  color: dimgray !important;
+  text-decoration: none;
+}
 .upload {
   text-align: center;
   padding-top: 20%;
