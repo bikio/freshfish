@@ -13,7 +13,7 @@
     background: dimgray;
     height: 75px;
 /*  padding-left: 10px;
-*/  margin-bottom: 2%;
+*/  padding-bottom: 2%;
     color: #fff;
     font-size: 2.5em;
     line-height: 55px;
@@ -63,7 +63,8 @@
 .catch {
   margin-top: 140px !important;
   padding: 1%;
-  background: whitesmoke;
+  background: lightgrey !important;
+  width: 100%;
   box-shadow: 0 0 10px rgba(0, 0, 0, .4);
 }
 
@@ -76,6 +77,11 @@ form {
   float: left;
   padding-left: 1%;
 }
+
+/*.add img {
+  width: 30px;
+  height: 30px;
+}*/
 
 
 }
