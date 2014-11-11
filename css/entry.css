@@ -71,9 +71,8 @@
 .catch {
   margin-top: 140px !important;
   padding: 1%;
-  background: lightgrey !important;
+  /*background: !important;*/
   width: 100%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .4);
   clear: both;
 }
 
