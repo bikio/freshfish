@@ -44,6 +44,7 @@
 
 .sale {
   background: #969696;
+  clear: both;
   height: 80px;
   box-sizing: border-box;
   position: fixed;
@@ -71,6 +72,7 @@
   background: lightgrey !important;
   width: 100%;
   box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+  clear: both;
 }
 
 .catch h4 {
