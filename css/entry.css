@@ -71,6 +71,7 @@
 
 .catch {
   margin-top: 200px !important;
+  margin: 0 auto;
   padding: 1%;
   /*background: !important;*/
   width: 100%;
@@ -141,12 +142,8 @@ form {
 }
 
 .biohead img {
-  height: 65px;
-  padding-top: 10px;
-  width: 50px;
-  float: left;
-/*  border-radius: 5%;
-*/}
+  display: none;
+}
 
 .sale {
   background: #969696;
@@ -187,8 +184,9 @@ form {
 }
 
 .add img {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
+  padding-left: 2%;
 }
 
 .add a {
