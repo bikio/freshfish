@@ -27,7 +27,7 @@
     line-height: 55px;
     text-shadow: 1px 1px 1px rgba(0,0,0,.3);
     box-sizing: border-box;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
     position: fixed;
     top: 0;
 }
@@ -37,10 +37,12 @@
 }
 
 .biohead img {
-  height: 65px;
-  padding-top: 5px;
+  height: 80px;
+  padding-top: 8px;
   margin: 0 auto;
+  border-radius: 39px;
   width: 75px;
+  padding-bottom: 9px;
 }
 
 .sale {
