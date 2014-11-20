@@ -2,7 +2,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  overflow: scroll;
+  overflow: hidden;
   resize:none;
 }
 
@@ -10,70 +10,60 @@
 
 * {
   font-family: 'Lato', sans-serif;
-/*  padding: .5%;
-*/}
+}
 
 .biohead {
-    display: block;
-    float: right;
+    float: left;
     width: 100%;
-    background: dimgray;
     text-align: center;
-    height: 120px;
-/*  padding-left: 10px;
-*/  padding-bottom: 1%;
-    color: #fff;
+    height: 100px;
+    padding-bottom: 1%;
+    color: dimgray;
     font-size: 2.5em;
-    line-height: 55px;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
-    box-sizing: border-box;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
-    position: fixed;
-    top: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+}
+.biohead img {
+  height: 50px;
+  border-radius: 39px;
+  width: 50px;
+  margin-top: 25px;
+  float: left;
+  margin-left: 5px;
 }
 
 .biohead h1 {
-  margin: 0 auto;
-}
-
-.biohead img {
-  height: 80px;
-  padding-top: 8px;
-  margin: 0 auto;
-  border-radius: 39px;
-  width: 75px;
-  padding-bottom: 9px;
+  width: 80%;
+  float: left;
+  margin-top: 25px; 
 }
 
 .sale {
-  background: #969696;
-  clear: both;
-  height: 80px;
+  background: whitesmoke;
+  height: 130px;
   box-sizing: border-box;
   position: fixed;
-  margin-top: 120px;
+  margin-top: 100px;
   text-align: center;
   width: 100%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
 
 }
 
 .sale p:first-child {
   padding-top: 2.5%;
-  color: white;
+  color: dimgray;
 }
 
 .sale p {
-  color: white;
+  color: dimgray;
   padding-top: .5%;
   font-size: 1.1em;
 }
 
 .catch {
-  margin-top: 200px !important;
+  margin-top: 250px !important;
   margin: 0 auto;
   padding: 1%;
-  /*background: !important;*/
   width: 100%;
   clear: both;
 }
@@ -118,35 +108,25 @@ form {
 
 .biohead {
     display: block;
-    margin: 0 auto !important;
-    text-align: center;
     width: 100%;
-    background: dimgray;
     height: 75px;
-    /*padding-left: 40%;*/
     padding-bottom: 5%;
     color: #fff;
     font-size: 2.5em;
     line-height: 55px;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
     box-sizing: border-box;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
-    position: fixed;
-    top: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
 }
 
 .biohead h1 {
-/*  float: left;
-*//*  width: 85%;*/
+  float: left;
+  width: 85%;
   text-align: center;
-}
-
-.biohead img {
-  display: none;
+  color: dimgray;
 }
 
 .sale {
-  background: #969696;
+  background: whitesmoke;
   clear: both;
   height: 130px;
   box-sizing: border-box;
@@ -154,17 +134,17 @@ form {
   margin-top: 73px;
   text-align: center;
   width: 100%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
 
 }
 
 .sale p:first-child {
   padding-top: 2.5%;
-  color: white;
+  color: dimgray;
 }
 
 .sale p {
-  color: white;
+  color: dimgray;
   padding-top: .5%;
   font-size: 1.3em;
 }
@@ -184,7 +164,7 @@ form {
 }
 
 .add img {
-  width: 60px;
+  width: 75px;
   height: 60px;
   padding-left: 2%;
 }
