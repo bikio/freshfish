@@ -16,6 +16,7 @@
 .biohead {
     width: 100%;
     position: fixed;
+    text-align: center;
     display: block;
     padding-bottom: 1%;
     color: dimgray;
@@ -35,8 +36,8 @@
   /*margin-right: 11px;*/
 }
 .biohead h1 {
-    float: left;
-    margin: 0 auto;
+/*    float: left;
+*/    margin: 0 auto;
     margin-top: 10px; 
 }
 
