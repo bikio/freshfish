@@ -15,8 +15,8 @@
 
 .biohead {
   width: 100%;
-  position: fixed;
-  text-align: center;
+/*  position: fixed;
+*/  text-align: center;
   display: block;
   color: dimgray;
   font-size: 2.5em;
