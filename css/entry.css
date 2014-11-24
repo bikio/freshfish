@@ -122,9 +122,10 @@ form {
 
 .biohead {
   width: 100%;
-  position: fixed;
-  text-align: center;
+/*  position: fixed;
+*/  text-align: center;
   display: block;
+  height: 70px;
   color: dimgray;
   font-size: 2.5em;
   box-shadow: 0 0 15px rgba(0, 0, 0, .2);
@@ -144,16 +145,14 @@ form {
   vertical-align: middle;
 }
 
-
 .sale {
   background: whitesmoke;
-  clear: both;
   height: 160px;
+  vertical-align: center;
   box-sizing: border-box;
-  position: fixed;
-  margin-top: 65px;
   text-align: center;
-  width: 100%;
+/*  padding-top: 2%;
+*/  width: 100%;
   box-shadow: 0 0 5px rgba(0, 0, 0, .2);
 
 }
@@ -166,12 +165,10 @@ form {
 .sale p {
   color: dimgray;
   padding-top: .5%;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
-
 .catch {
-  margin-top: 200px !important;
   vertical-align: middle;
   display: inline-block;
   text-align: center;
