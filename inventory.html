@@ -13,6 +13,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/entry.css">
+        <link rel="stylesheet" type="text/css" href="css/inventory.css">
 <!--         <link rel="stylesheet" type="text/css" href="css/distribview.css">
  -->        <!-- <link rel="stylesheet" type="text/css" href="css/ff.css"> -->
         <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
@@ -33,50 +34,30 @@
                   <p> Last updated 13 minutes ago </p>
                 </div>
 
-              <div class="catch">
-                    <form method="post">
-                     <h4> fish  </h4> <select name=" Fish">
-                            <option value="mahi ">Mahi</option>
-                            <option value="ahi ">Ahi</option>
-                            <option value="squid">Squid</option>
-                    </select>
-                   </form>
-
-                    <form method="post">
-                       <h4> lb range </h4> <select name="lb">
-                              <option value="5 ">5-10</option>
-                              <option value="10 ">10-20</option>
-                              <option value="20">20-30</option>
-                              <option value="30">30-40</option>
-                              <option value="40">40-50</option>
-                              <option value="50">50-60</option>
-                      </select>
-                    </form>
-
-                    <form method="post">
-                       <h4> $/lb </h4> <select name="$">
-                              <option value="2">$2</option>
-                              <option value="3">$3</option>
-                              <option value="4">$4</option>
-                              <option value="5">$5</option>
-                              <option value="6">$6</option>
-                              <option value="7">$7</option>
-                              <option value="msg">msg</option>
-                      </select>
-                    </form>
-
-                    <form method="post">
-                       <h4> quantity </h4> <select name="qty">
-                              <option value="5 ">5-10</option>
-                              <option value="10 ">10-20</option>
-                              <option value="20">20-30</option>
-                              <option value="30">30-40</option>
-                              <option value="40">40-50</option>
-                              <option value="50">50-60</option>
-                      </select>
-                    </form>
-
-               </div> <!--catch-->
+              <table>
+                <thead>
+                <tr>
+                  <th>species</th>
+                  <th>size</th>
+                  <th>price/lb</th>
+                  <th>quantity</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>mahi</td>
+                  <td>20-30</td>
+                  <td>$4.50</td>
+                  <td> 50 </td>
+                </tr>
+                <tr>
+                  <td>ahi</td>
+                  <td>30-40</td>
+                  <td>$3.50</td>
+                  <td> 20 </td>
+                </tr>
+                </tbody>
+              </table>
 
                   <div class="add">
                     <a href="#"><img src="images/add.png"> add new</a>
