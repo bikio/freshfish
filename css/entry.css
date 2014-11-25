@@ -62,7 +62,7 @@
 }
 
 .catch {
-  vertical-align: middle;
+  vertical-align: center;
   display: inline-block;
   text-align: center;
   margin: 0 auto;
@@ -72,7 +72,7 @@
 
 .catch h4 {
   padding-top: 5%;
-  vertical-align: middle;
+  vertical-align: center;
 }
 
 form {
