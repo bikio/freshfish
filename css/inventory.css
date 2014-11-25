@@ -1,9 +1,9 @@
 
 
 table {
-/*  border: 2px solid red;
-*/  vertical-align: middle;
-text-align: center;
+  margin-top: 20px;
+  vertical-align: middle;
+  text-align: center;
   width: 99%;
 }
 
