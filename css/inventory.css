@@ -5,6 +5,8 @@ table {
   vertical-align: middle;
   text-align: center;
   width: 99%;
+  color: dimgray;
+  font-size: 1.1em;
 }
 
 th {
@@ -14,11 +16,12 @@ th {
 
 td {
   padding: 2.2%;
+  font-size: 1em;
   }
 
   @media only screen and (min-width: 761px)  {
     table {
-      width: 50%;
+      width: 60%;
       padding: -4% !important;
       }
 
