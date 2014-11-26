@@ -5,6 +5,11 @@
   overflow: hidden;
   resize:none;
   margin: 0 auto;
+  background: whitesmoke;
+}
+
+body {
+  background: whitesmoke;
 }
 
 @media only screen and (max-width: 760px)  {
@@ -19,7 +24,7 @@
 */  text-align: center;
   display: block;
   height: 70px;
-  color: dimgray;
+  color: #3281DB !important;
   font-size: 2.5em;
   box-shadow: 0 0 15px rgba(0, 0, 0, .2);
 }
@@ -108,8 +113,8 @@ form {
 }
 .upload a {
   text-decoration: none;
-  font-size: 2em;
-  color: dimgray !important;
+  font-size: 2.2em;
+  color: #3281DB !important;
 }
 }
 
@@ -215,9 +220,17 @@ form {
 }
 .upload a {
   text-decoration: none;
-  font-size: 2em;
-  color: dimgray !important;
+  font-size: 2.2em;
+  color: #3281DB !important;
 }
+}
+
+@media only screen and (max-width: 415px) {
+  .sale {
+    height: 105px;
+    margin-top: -1%;
+  }
+
 }
 
 
