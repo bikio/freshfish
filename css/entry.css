@@ -23,7 +23,7 @@ body {
 /*  position: fixed;
 */  text-align: center;
   display: block;
-    background: white;
+    /*background: white;*/
 
   height: 70px;
   color: #3281DB;
@@ -41,8 +41,8 @@ body {
 
 .biohead h1 {
   display: inline-block;
-    background: white;
-
+/*    background: white;
+*/
   vertical-align: middle;
 }
 
@@ -54,8 +54,8 @@ body {
   text-align: center;
 /*  padding-top: 2%;
 */  width: 100%;
-/*  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
-*/
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+
 }
 
 .sale p:first-child {
@@ -133,7 +133,6 @@ form {
 /*  position: fixed;
 */  text-align: center;
   display: block;
-  background-color: white;
   height: 70px;
   color: #3281DB;
   font-size: 2.5em;
@@ -152,7 +151,6 @@ form {
 .biohead h1 {
   display: inline-block;
   vertical-align: middle;
-  background: white;
 }
 
 .sale {
