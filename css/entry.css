@@ -24,7 +24,7 @@ body {
 */  text-align: center;
   display: block;
   height: 70px;
-  color: #3281DB !important;
+  color: #3281DB;
   font-size: 2.5em;
   box-shadow: 0 0 15px rgba(0, 0, 0, .2);
 }
@@ -51,8 +51,8 @@ body {
   text-align: center;
 /*  padding-top: 2%;
 */  width: 100%;
-  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
-
+/*  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+*/
 }
 
 .sale p:first-child {
@@ -69,6 +69,7 @@ body {
 .catch {
   vertical-align: center;
   display: inline-block;
+  color: dimgray;
   text-align: center;
   margin: 0 auto;
   padding: 1%;
@@ -76,12 +77,11 @@ body {
 }
 
 .catch h4 {
-  padding-top: 5%;
+  padding-top: 3%;
   vertical-align: center;
 }
 
 form {
-  padding-top: 3%;
   text-align: center;
   display: inline-block;
   vertical-align: middle;
@@ -131,7 +131,7 @@ form {
 */  text-align: center;
   display: block;
   height: 70px;
-  color: dimgray;
+  color: #3281DB;
   font-size: 2.5em;
   box-shadow: 0 0 15px rgba(0, 0, 0, .2);
 }
@@ -158,8 +158,6 @@ form {
   text-align: center;
 /*  padding-top: 2%;
 */  width: 100%;
-  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
-
 }
 
 .sale p:first-child {
@@ -177,6 +175,7 @@ form {
   vertical-align: middle;
   display: inline-block;
   text-align: center;
+  color: dimgray;
   margin: 0 auto;
   padding: 1%;
   width: 100%;
@@ -188,7 +187,6 @@ form {
 }
 
 form {
-  padding-top: 3%;
   text-align: center;
   display: inline-block;
   vertical-align: middle;
