@@ -26,7 +26,7 @@ body {
     /*background: white;*/
 
   height: 70px;
-  color: #3281DB;
+  color: dimgray;
   font-size: 2.5em;
 }
 
@@ -61,6 +61,7 @@ body {
 .sale img {
   width: 50px !important;
   height: 50px !important;
+
 }
 
 .sale p:first-child {
