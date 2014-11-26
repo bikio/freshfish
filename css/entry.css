@@ -15,7 +15,7 @@ body {
 @media only screen and (max-width: 760px)  {
 
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .biohead {
@@ -23,10 +23,11 @@ body {
 /*  position: fixed;
 */  text-align: center;
   display: block;
+    background: white;
+
   height: 70px;
   color: #3281DB;
   font-size: 2.5em;
-  box-shadow: 0 0 15px rgba(0, 0, 0, .2);
 }
 
 .biohead img {
@@ -40,6 +41,8 @@ body {
 
 .biohead h1 {
   display: inline-block;
+    background: white;
+
   vertical-align: middle;
 }
 
@@ -121,7 +124,7 @@ form {
 @media only screen and (min-width: 761px)  {
 
   * {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 /*  padding: .5%;
 */}
 
@@ -130,6 +133,7 @@ form {
 /*  position: fixed;
 */  text-align: center;
   display: block;
+  background-color: white;
   height: 70px;
   color: #3281DB;
   font-size: 2.5em;
@@ -148,6 +152,7 @@ form {
 .biohead h1 {
   display: inline-block;
   vertical-align: middle;
+  background: white;
 }
 
 .sale {
