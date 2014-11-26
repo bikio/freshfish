@@ -48,7 +48,7 @@ body {
 
 .sale {
   background: whitesmoke;
-  height: 120px;
+  height: 170px;
   vertical-align: center;
   box-sizing: border-box;
   text-align: center;
@@ -56,6 +56,11 @@ body {
 */  width: 100%;
   /*box-shadow: 0 0 5px rgba(0, 0, 0, .2);*/
 
+}
+
+.sale img {
+  width: 50px !important;
+  height: 50px !important;
 }
 
 .sale p:first-child {
@@ -155,12 +160,17 @@ form {
 
 .sale {
   background: whitesmoke;
-  height: 160px;
+  height: 220px;
   vertical-align: center;
   box-sizing: border-box;
   text-align: center;
 /*  padding-top: 2%;
 */  width: 100%;
+}
+
+.sale img {
+  width: 50px !important;
+  height: 50px !important;
 }
 
 .sale p:first-child {
