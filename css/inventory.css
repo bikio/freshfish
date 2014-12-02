@@ -1,12 +1,16 @@
 
 
 table {
-  margin-top: 20px;
+  margin-top: 0;
   vertical-align: middle;
   text-align: center;
   width: 99%;
   color: dimgray;
   font-size: 1.1em;
+}
+
+.sale {
+  height: 130px;
 }
 
 th {
@@ -23,5 +27,9 @@ td {
     table {
       width: 60%;
       padding: -4% !important;
+      }
+
+      .sale {
+        height: 160px;
       }
     }
