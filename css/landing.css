@@ -1,9 +1,19 @@
-body {
-  background-repeat: no-repeat; 
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;*/
-  height: 100%;
 
+  body {
+    background-repeat: no-repeat; 
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    height: 100%;
   }
+
+@media only screen and (min-width: 980px)  {
+    body {
+      background-repeat: no-repeat; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+   }
 
