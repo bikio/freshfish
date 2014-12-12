@@ -9,8 +9,11 @@
 
   .header {
     text-align: center;
-    color: white;
     display: block;
+    }
+
+    .header p {
+      color: white;
     }
 
   .freshr h1 {
