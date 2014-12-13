@@ -24,6 +24,7 @@
 
     input {
       border-color: white;
+      color: dimgray;
     }
 
 @media only screen and (min-width: 980px)  {
