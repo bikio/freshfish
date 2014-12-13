@@ -7,7 +7,7 @@
     height: 100%;
   }
 
-  button {
+ /* button {
     border-radius: 10%;
     text-align: center;
     background: white;
@@ -17,7 +17,7 @@
     width: 50px;
     color: dimgray;
   }
-
+*/
   .header {
     text-align: center;
     }
