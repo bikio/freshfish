@@ -10,7 +10,7 @@
   button {
     border-radius: 10%;
     background: lightseagreen;
-    border: none;
+    border-color: white;
     color: white !important;
   }
 
