@@ -9,12 +9,12 @@
 
   button {
     border-radius: 10%;
-    background: lightseagreen;
+    text-align: center;
+    background: white;
     border-color: white;
-    height: 40px;
-    width: 60px;
-    color: white !important;
-    margin-left: 3%;
+    height: 30px;
+    width: 50px;
+    color: dimgray;
   }
 
   .header {
