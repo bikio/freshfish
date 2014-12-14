@@ -20,10 +20,8 @@ body {
 
 .biohead {
   width: 100%;
-/*  position: fixed;
-*/  text-align: center;
+  text-align: center;
   display: inline-block;
-    /*background: white;*/
   height: 90px;
   color: #5A6CA3;
 }
@@ -54,9 +52,8 @@ body {
   vertical-align: center;
   box-sizing: border-box;
   text-align: center;
-/*  padding-top: 2%;
-*/  width: 100%;
-  /*box-shadow: 0 0 5px rgba(0, 0, 0, .2);*/
+  width: 100%;
+  
 
 }
 
@@ -67,14 +64,12 @@ body {
 }
 
 .sale p:first-child {
-/*  padding-top: 2.5%;
-*/  color: dimgray;
+   color: dimgray;
 }
 
 .sale p {
   color: dimgray;
-/*  padding-top: .5%;
-*/  font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 .catch {
@@ -88,8 +83,7 @@ body {
 }
 
 .catch h4 {
-/*  padding-top: 3%;
-*/  vertical-align: center;
+  vertical-align: center;
 }
 
 form {
@@ -133,13 +127,11 @@ form {
 
   * {
   font-family: 'Ubuntu', sans-serif;
-/*  padding: .5%;
-*/}
+ }
 
 .biohead {
   width: 100%;
-/*  position: fixed;
-*/  text-align: center;
+  text-align: center;
   display: block;
   height: 110px;
   color: #5A6CA3;
@@ -164,12 +156,11 @@ form {
 
 .sale {
   background: whitesmoke;
-  height: 200px;
+  height: 300px;
   vertical-align: center;
   box-sizing: border-box;
   text-align: center;
-/*  padding-top: 2%;
-*/  width: 100%;
+  width: 100%;
 }
 
 .sale img {
@@ -240,10 +231,10 @@ form {
 }
 }
 
-@media only screen and (min-width: 415px) {
+@media only screen and (min-width: 715px) {
   .sale {
 
-    height: 130px;
+    height: 200px;
   }
 
 }
