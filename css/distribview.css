@@ -165,12 +165,12 @@ form {
       content: attr(data-label);
 
       display: inline-block;
-      width: 60px;
+      width: 40px;
       background: lightseagreen;
       border-radius: 20px;
       height: 20px;
-      margin-right: 10px;
-      font-size: 14px;
+      margin-right: 8px;
+      font-size: 12px;
       line-height: 20px;
       text-align: center;
       color: white;
