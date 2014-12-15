@@ -163,7 +163,6 @@ form {
     input[type="radio"]:checked ~ .cell:nth-of-type(n+2):before,
     input[type="checkbox"]:checked ~ .cell:nth-of-type(n+2):before {
       content: attr(data-label);
-
       display: inline-block;
       width: 40px;
       background: lightseagreen;
@@ -174,7 +173,6 @@ form {
       line-height: 20px;
       text-align: center;
       color: white;
-
     }
 
     input[type="radio"]:checked ~ .primary,
