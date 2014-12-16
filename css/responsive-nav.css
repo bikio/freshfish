@@ -1,16 +1,27 @@
+a {
+  color: dimgray;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: dimgray;
+}
+
+.nav-toggle {
+  color: dimgray;
+  text-decoration: none;
+  font-size: 2em;
+}
+
 
 .nav-collapse ul {
   margin: 0;
+  background: whitesmoke;
   padding: 0;
   width: 100%%;
   display: block;
   list-style: none;
-}
-
-.nav-collapse {
-  background: dimgray;
-  color: white;
-  text-decoration: none !important;
 }
 
 .nav-collapse li {
