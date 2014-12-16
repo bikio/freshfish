@@ -19,7 +19,8 @@ body {
 }
 
 .biohead {
-  width: 100%;
+/*  padding-top: 15px;
+*/  width: 100%;
   text-align: center;
   display: inline-block;
   height: 90px;
