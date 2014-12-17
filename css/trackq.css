@@ -13,10 +13,10 @@
     border-radius: 5px;
     color: white !important;
     height: 40px;
-    width: 60px;
+    width: 65px;
     margin: 0 auto !important;
     margin-top: 10px !important;
-    border-color: white !important;
+    border: 2px solid white;
   }
 
  /* button {
