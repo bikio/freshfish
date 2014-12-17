@@ -10,7 +10,10 @@
   button {
     display: block;
     background: lightseagreen;
+    border-radius: 5px;
     color: white !important;
+    height: 40px;
+    width: 60px;
     margin: 0 auto !important;
     margin-top: 10px !important;
     border-color: white !important;
