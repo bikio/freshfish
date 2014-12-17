@@ -5,12 +5,11 @@ a {
 
 a:hover {
   text-decoration: none !important;
-  color: dimgray !important;
+  color: lightblue !important;
 }
 
 .nav-toggle {
-  background: url(images/menya.png);
-  color: dimgray;
+  color: lightseagreen !important;
   padding-left: 10px !important;
   text-decoration: none;
   font-size: 2em;
