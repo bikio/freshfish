@@ -9,13 +9,16 @@ a:hover {
 }
 
 .nav-toggle {
+  background: url(images/menya.png);
   color: dimgray;
+  padding-left: 10px !important;
   text-decoration: none;
   font-size: 2em;
 }
 
 
 .nav-collapse ul {
+  padding-left: 10px !important;
   margin: 0;
   background: whitesmoke;
   padding: 0;
