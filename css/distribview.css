@@ -10,6 +10,11 @@ form h2 {
 
 .container {
   width: 100%;
+  background-color: whitesmoke;
+}
+
+body {
+  background-color: whitesmoke;
 }
 
 
