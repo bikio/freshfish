@@ -14,7 +14,7 @@
  -->      <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
                 <link rel="stylesheet" type="text/css" href="css/landing.css">
-                <link rel="stylesheet" type="text/css" href="css/uni.css">
+                <link rel="stylesheet" type="text/css" href="css/responsive-nav.css">
 
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/distribview.css">
@@ -56,6 +56,14 @@
           <a href="catchentry.html">Entry</a>
         </nav> -->
       <body style="background-image:url(images/fresh.jpg)">
+        <nav class="nav-collapse">
+          <ul>
+            <li><a href="distribview.html">Catches</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="landing.html">Landing</a></li>
+            <li><a href="catchentry.html">Entry</a></li>
+          </ul>
+        </nav>
 
         <div class= "freshr">
           <h1> freshr </h1>
@@ -74,5 +82,9 @@
           }
         });
       </script>
+      <script src="js/responsive-nav.js"></script>
+      <script>
+            var nav = responsiveNav(".nav-collapse");
+          </script>
     </body>
 </html>
