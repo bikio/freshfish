@@ -9,8 +9,8 @@
 */
 
 * {
-/*  margin: 1%;
-*/  text-align: center !important;
+  margin: 1%;
+  text-align: center !important;
 }
 input {
   display: inline-block !important;
