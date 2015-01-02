@@ -1,0 +1,24 @@
+/*#image {
+  text-align: center;
+}*/
+/*.imgup {
+  text-align: center;
+  margin: 0 auto !important;
+  border: 10px solid blue;
+}
+*/
+
+* {
+/*  margin: 1%;
+*/  text-align: center !important;
+}
+input {
+  display: inline-block !important;
+}
+#image {
+  margin: 0 auto;
+  width: 20%;
+}
+input[type='file'] {
+  color: transparent;
+}

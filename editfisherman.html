@@ -10,8 +10,10 @@
         <meta name="description" content="">
         <meta name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/distribview.css">
+      <link rel="stylesheet" type="text/css" href="css/editfisherman.css">
     </head>
     <body>
         <div class="clear"></div>
@@ -21,6 +23,7 @@
 
     <div class="row">
 
+      <div class="imgup">
       <form method="post"
         action='<%=blobstoreService.createUploadUrl("/uploadfisherman")%>'
         enctype="multipart/form-data" data-ajax="false">
@@ -28,6 +31,7 @@
           type="file" id="image" accept="image/*" capture /> <input
           type="submit" value="Upload Image" name="submit" class="btn">
       </form>
+      </div>
     </div>
 
 
