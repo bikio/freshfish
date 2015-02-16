@@ -1,0 +1,56 @@
+
+  body {
+    background-repeat: no-repeat; 
+    font-family: 'Source Sans Pro', sans-serif;
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    height: 100%;
+  }
+
+.logo {
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+  .tranny {
+    background:rgba(255,255,255, 0.9);
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 2%;
+    text-align: center;
+    margin-top: 100px;
+    height: 300px;
+    width: 80%;
+  }
+
+  .ios {
+    padding-top: 10px;
+    width: 100px;
+  }
+
+  .play {
+    padding-top: 10px;
+    width: 110px;
+
+  }
+
+  p {
+    font-size: 20px;
+    color: dimgray;
+  }
+
+  @media only screen and (min-width: 980px)  {
+    body {
+      background-repeat: no-repeat; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    .tranny {
+      width: 40%;
+    }
+   }
